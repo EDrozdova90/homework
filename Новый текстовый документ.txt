@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hm5
+{
+    class Program
+    {
+        public int Sum(int[] arr)
+        {
+            int s = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                s += arr[i];
+            }
+            return s;
+        }
+        public int [] Inverse(int[] arr)
+        {
+            int[] newArr = new int[arr.Length];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                newArr[i] = -arr[i];
+            }
+            return newArr;
+        }
+        public int[] Multi(int[] arr, int mlt)
+        {
+            int[] newArr = new int[arr.Length];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                newArr[i] = mlt * arr[i];
+            }
+            return newArr;
+        }
+        public int MaxCounter(int[] arr)
+        {
+            int max = arr.Max();
+            int s = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] == max)
+                    s += 1;
+            }
+            return s;
+        }
+        static void Main(string[] args)
+        {            
+            int[] array = new   int[10];
+            Random r = new Random();
+            int start = 2; int step = 3;
+            {
+                for (int i = 0; i < array.Length; i++)
+                {
+                    array[i] = start + (step * i);
+
+                    Console.WriteLine($" {array[i]} ");                   
+
+                }
+                Console.WriteLine( "Sum"+" " + array.Sum());
+                
+            }            
+            Console.ReadKey();
+        }        
+    }
+}
