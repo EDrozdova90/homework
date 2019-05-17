@@ -1,0 +1,7 @@
+C:\Users\zatan\source\repos\55555\55555\bin\Debug\55555.exe.config
+C:\Users\zatan\source\repos\55555\55555\bin\Debug\55555.exe
+C:\Users\zatan\source\repos\55555\55555\bin\Debug\55555.pdb
+C:\Users\zatan\source\repos\55555\55555\obj\Debug\55555.csprojAssemblyReference.cache
+C:\Users\zatan\source\repos\55555\55555\obj\Debug\55555.csproj.CoreCompileInputs.cache
+C:\Users\zatan\source\repos\55555\55555\obj\Debug\55555.exe
+C:\Users\zatan\source\repos\55555\55555\obj\Debug\55555.pdb
