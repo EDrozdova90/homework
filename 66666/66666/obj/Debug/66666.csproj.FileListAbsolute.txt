@@ -1,0 +1,6 @@
+C:\Users\zatan\source\repos\66666\66666\bin\Debug\66666.exe.config
+C:\Users\zatan\source\repos\66666\66666\bin\Debug\66666.exe
+C:\Users\zatan\source\repos\66666\66666\bin\Debug\66666.pdb
+C:\Users\zatan\source\repos\66666\66666\obj\Debug\66666.csproj.CoreCompileInputs.cache
+C:\Users\zatan\source\repos\66666\66666\obj\Debug\66666.exe
+C:\Users\zatan\source\repos\66666\66666\obj\Debug\66666.pdb
